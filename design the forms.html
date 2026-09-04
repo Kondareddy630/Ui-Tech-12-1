@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  
+
+
+<style>
+
+    body{
+        margin-bottom: 500px;
+    }
+</style>
+    
+</head>
+<body class="container mt-5">
+
+
+      <form class="border shadow p-4 w-50 m-auto rounded-2 bg-light">
+
+        <div class="my-3">
+            <h3 class="text-secondary">Login Here</h3>
+        </div>
+
+        <div class="mt-2 input-group">
+            <span class="bi bi-person-fill fs-4 input-group-text"></span>
+            <input type="text" placeholder="Username" class="form-control">
+        </div>
+
+        <div class="mt-2 input-group">
+            <span class="bi bi-eye-fill fs-4 input-group-text"></span>
+            <input type="password" placeholder="Password" class="form-control">
+            
+        </div>
+
+        <div class="mt-2">
+            <input type="submit" value="Login" class="btn btn-success">
+        </div>
+
+
+    </form>
+
+
+
+    <br>
+    <br>
+    
+
+    <form class="border shadow p-4 w-50 m-auto rounded-2 bg-light">
+
+        <div class="my-3">
+            <h3 class="text-secondary">Login Here</h3>
+        </div>
+
+        <div class="form-floating mt-2">
+            <input type="text" placeholder="Username" class="form-control">
+            <label class="form-label">Username</label>
+        </div>
+
+        <div class="form-floating mt-2">
+            <input type="password" placeholder="Password" class="form-control">
+            <label class="form-label">Password</label>
+        </div>
+
+        <div class="mt-2">
+            <input type="submit" value="Login" class="btn btn-success">
+        </div>
+
+
+    </form>
+
+
+
+    <br>
+    <br>
+
+
+    <form class="border shadow p-4 w-50 m-auto rounded-2 bg-light">
+
+        <div class="my-2">
+            <h4 class="text-muted">Register Here</h4>
+        </div>
+
+        <div>
+            <label class="form-label">Username:</label>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Username" class="form-control">
+        </div>
+
+
+        <div>
+            <label class="form-label">Password:</label>
+        </div>
+
+         <div>
+            <input type="Password" placeholder="Password" class="form-control">
+        </div>
+
+        <div>
+            <label class="form-label">Email:</label>
+        </div>
+
+         <div>
+            <input type="email" placeholder="Email address" class="form-control">
+        </div>
+
+
+         <div>
+            <label class="form-label">Choose Gender:</label>
+        </div>
+
+
+        <div class="d-flex gap-2">
+
+            <div  class="form-check">
+                <input type="radio" name="gender" value="male" class="form-check-input">
+                <label class="form-check-label">Male</label>
+            </div>
+
+            <div class="form-check">
+                <input type="radio" name="gender" value="female" class="form-check-input">
+                <label class="form-check-label">Female</label>
+            </div>
+
+             <div class="form-check">
+                <input type="radio" name="gender" value="other" class="form-check-input">
+                <label class="form-check-label">Other</label>
+            </div>
+
+
+
+        </div>
+
+
+        <div>
+            <label class="form-label">Choose Course:</label>
+        </div>
+
+
+
+        <div class="d-flex gap-2">
+
+            <div class="form-check">
+                <input type="checkbox" name="course" value="java" class="form-check-input">
+                <label class="form-check-label">Java</label>
+            </div>
+
+
+            
+            <div class="form-check">
+                <input type="checkbox" name="course" value="python" class="form-check-input">
+                <label class="form-check-label">Python</label>
+            </div>
+
+
+            
+            <div class="form-check">
+                <input type="checkbox" name="course" value="ui" class="form-check-input">
+                <label class="form-check-label">Ui</label>
+            </div>
+
+            
+
+
+        </div>
+
+        <div>
+        <label class="form-label">Choose Age:</label>
+        </div>
+
+        <div>
+            <input type="range" min="18" max="50" step="1" class="form-range" id="age">
+            <span id="msg"></span>
+        </div>
+
+
+        <div>
+            <label class="form-label">Upload Resume:</label>
+        </div>
+
+        <div>
+            <input type="file" class="form-control">
+
+        </div>
+
+
+        <div>
+            <label class="form-label">Select City:</label>
+        </div>
+
+        <div>
+            <select class="form-select">
+                <option>Hyd</option>
+                <option>Pune</option>
+                <option>Delhi</option>
+            </select>
+        </div>
+
+        <div class="mt-2 form-switch">
+         <input type="checkbox" class="form-check-input">
+         <label class="form-check-label">Accept Terms & Conditions</label>
+        </div>
+
+        <div class="mt-2">
+            <input type="submit" value="Register" class="btn btn-success">
+            <input type="reset" value="Clear" class="btn btn-danger">
+
+        </div>
+
+
+    </form>
+
+
+
+
+    <script>
+        function selectAge()
+        {
+
+            let age=document.getElementById("age").value;
+            document.getElementById("msg").innerText=age;
+        }
+
+    
+
+
+        document.getElementById("age").addEventListener("input",selectAge);
+    </script>
+
+
+</body>
+</html>
